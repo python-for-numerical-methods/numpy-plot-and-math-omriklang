@@ -1,7 +1,6 @@
 import numpy as np
 
-def normalized_array(data):
-   def normalized_array(input_array):
+def normalized_array(input_array):
     x = np.array(input_array, dtype=float)
     
     if np.max(x) == np.min(x):
